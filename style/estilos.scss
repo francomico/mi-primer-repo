@@ -1,0 +1,134 @@
+/*SCSS*/
+@import "variables";
+@import "header";
+@import "inicio";
+@import "footer";
+@import "contactos";
+@import "generales";
+/*CUERPO DE LA PAGINA (NOSOTROS)*/
+.container__nosotros h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: $colorGeneral;
+    font-weight: bold;
+    text-align: center;
+}
+.caja{
+    color: black;
+}
+.caja h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.caja p{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.caja p span{
+    color: $colorGeneral;
+}
+.imagen__nosotros img{
+    width: 100%;
+}
+/*CUERPO DE LA PAGINA (PRODUCTOS)*/
+.card{
+    margin:20px 20px 20px 20px;
+    width: 18rem;
+}
+/*CUERPO DE LA PAGINA (SERVICIOS)*/
+.card-body span{
+    font-weight: bold;
+    font-size: 20px;
+    color: $colorGeneral;
+}
+.card{
+    width: 18rem;
+}
+/*CUERPO DE LA PAGINA (CONTACTOS)*/
+.contactos__container{
+    padding: 0 1.5em;
+}
+.content__contactos{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo__contactos{
+    text-align: center;
+    font-size: 40px;
+    color: $colorGeneral;
+    padding: 20px;
+    font-weight: bold;
+}
+.contactos__wrapper >*{
+    padding: 1em;
+}
+.contactos__form .bloque{
+    grid-column: 1 / 3;
+}
+.contactos__form form .boton__contactos,
+.contactos__form form input,
+.contactos__form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid $colorGeneral ;
+    outline: none;
+    color: black;
+}
+.contactos__form form .boton__contactos{
+    color: white;
+}
+.contactos__form form .boton__contactos{
+    background-color: $colorGeneral;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contactos__form form .boton__contactos:hover,
+.contactos__form form .boton__contactos:focus{
+    background-color:#073e91;
+    color: white;
+    transition: background-color 1s ease-out;
+    outline: none;
+}
+.form-select{
+   margin-left: 180px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.contactos__info h4,
+.contactos__info ul,
+.contactos__info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: white;
+}
+/*Contactos*/
+@media screen and (min-width:700px) {
+    .contactos__container{
+        padding: 0 4rem;
+    }
+    .contactos__wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contactos__wrapper >*{
+        padding: 2em;
+    }
+    .contactos__info h4,
+    .contactos__info ul,
+    .contactos__info p{
+        text-align: left;
+    }
+}
+
+
+
+
+

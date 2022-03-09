@@ -1,0 +1,39 @@
+/*FOOTER*/
+.footer{
+    background-color: $colorGeneral;
+    align-self: flex-end;
+    width: 100%;
+}
+.contenedor-footer__todo h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.contenedor-footer__todo p{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.redes{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+        padding: 1em;
+    }
+    i{
+        padding-right: 10px;
+    }
+}

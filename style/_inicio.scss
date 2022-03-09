@@ -1,0 +1,27 @@
+/*CUERPO DE LA PAGINA (INICIO)*/
+#carouselExampleControls{
+    width: 100%;
+}
+.carousel-item{
+    max-height: 39rem;
+}
+#section-inicio{
+    width: 100%;
+    h1{
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        span{
+            color: $colorGeneral;
+        }
+    }
+    p{
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+        span{
+            color: $colorGeneral
+        }
+    }
+}

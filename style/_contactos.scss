@@ -1,0 +1,30 @@
+.contactos__form{
+    background-color: white;
+    border-radius: 5px;
+    h3{
+        color: $colorGeneral;
+    }
+    form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        p{
+            margin: 0;
+            padding: 1em;
+            color: black;
+        }
+    }
+}
+.contactos__info{
+    background-color: #000;
+    border-radius: 5px;
+    ul{
+    list-style: none;
+    padding: 0;
+        li{
+        padding: .3em;
+            i{
+            padding-right: 10px;
+            }
+        }
+    }
+}
