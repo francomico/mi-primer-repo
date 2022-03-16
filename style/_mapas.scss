@@ -1,0 +1,6 @@
+$headings:(
+    h1: 35px,
+    h2: 25px,
+);
+$h1: map-get($map: $headings, $key: h1 );
+$h2: map-get($map: $headings, $key: h2 );
