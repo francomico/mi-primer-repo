@@ -3,13 +3,16 @@
 .navbar-titulo {
   text-decoration: none;
   font-weight: bold;
-  color: #0d6efd; }
+  color: #8D71B4; }
 
 #menu a {
   font-size: 20px;
   text-decoration: none; }
   #menu a:hover {
-    color: #0d6efd; }
+    color: #8D71B4; }
+
+.Titulo {
+  color: #8D71B4; }
 
 /*CUERPO DE LA PAGINA (INICIO)*/
 #carouselExampleControls {
@@ -18,25 +21,19 @@
 .carousel-item {
   max-height: 39rem; }
 
-#section-inicio {
-  width: 100%; }
-  #section-inicio h1 {
-    padding: 10px;
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold; }
-    #section-inicio h1 span {
-      color: #0d6efd; }
-  #section-inicio p {
-    padding: 10px;
-    text-align: center;
-    font-size: 30px; }
-    #section-inicio p span {
-      color: #0d6efd; }
+.titulo-carousel {
+  font-size: 40px;
+  font-weight: bold; }
+
+.texto-carousel {
+  font-size: 20px; }
+
+.cambiar-color {
+  color: #573B79; }
 
 /*FOOTER*/
 .footer {
-  background-color: #0d6efd;
+  background-color: #212121;
   align-self: flex-end;
   width: 100%; }
 
@@ -74,7 +71,7 @@
   background-color: white;
   border-radius: 5px; }
   .contactos__form h3 {
-    color: #0d6efd; }
+    color: #6A518A; }
   .contactos__form form {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -106,7 +103,7 @@ body {
 .container__nosotros h1 {
   margin-top: 10px;
   font-size: 35px;
-  color: #0d6efd;
+  color: #4E386E;
   font-weight: bold;
   text-align: center; }
 
@@ -125,24 +122,14 @@ body {
   font-size: 20px; }
 
 .caja p span {
-  color: #0d6efd; }
+  color: #8D71B4; }
 
 .imagen__nosotros img {
   width: 100%; }
 
-/*CUERPO DE LA PAGINA (PRODUCTOS)*/
+/*CUERPO DE LA PAGINA (PRODUCTOS) Y (SERVICIOS)*/
 .card {
-  margin: 20px 20px 20px 20px;
-  width: 18rem; }
-
-/*CUERPO DE LA PAGINA (SERVICIOS)*/
-.card-body span {
-  font-weight: bold;
-  font-size: 20px;
-  color: #0d6efd; }
-
-.card {
-  width: 18rem; }
+  margin-bottom: 20px; }
 
 /*CUERPO DE LA PAGINA (CONTACTOS)*/
 .contactos__container {
@@ -157,7 +144,7 @@ body {
 .logo__contactos {
   text-align: center;
   font-size: 40px;
-  color: #0d6efd;
+  color: #573B79;
   padding: 20px;
   font-weight: bold; }
 
@@ -174,7 +161,7 @@ body {
   padding: .7em;
   border: none;
   background: none;
-  border-bottom: 1px solid #0d6efd;
+  border-bottom: 1px solid #6A518A;
   outline: none;
   color: black; }
 
@@ -182,14 +169,14 @@ body {
   color: white; }
 
 .contactos__form form .boton__contactos {
-  background-color: #0d6efd;
+  background-color: #6A518A;
   border: 0;
   text-transform: uppercase;
   padding: 1em; }
 
 .contactos__form form .boton__contactos:hover,
 .contactos__form form .boton__contactos:focus {
-  background-color: #073e91;
+  background-color: #3A2558;
   color: white;
   transition: background-color 1s ease-out;
   outline: none; }

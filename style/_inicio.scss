@@ -5,23 +5,13 @@
 .carousel-item{
     max-height: 39rem;
 }
-#section-inicio{
-    width: 100%;
-    h1{
-        padding: 10px;
-        text-align: center;
-        font-size: $h1;
-        font-weight: bold;
-        span{
-            color: $colorGeneral;
-        }
-    }
-    p{
-        padding: 10px;
-        text-align: center;
-        font-size: 30px;
-        span{
-            color: $colorGeneral
-        }
-    }
+.titulo-carousel{
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto-carousel{
+    font-size: 20px;
+}
+.cambiar-color{
+    color: $colorTres;
 }

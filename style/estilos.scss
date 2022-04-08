@@ -10,7 +10,7 @@
 .container__nosotros h1{
     margin-top: 10px;
     font-size: $h1;
-    color: $colorGeneral;
+    color: $colorCuatro;
     font-weight: bold;
     text-align: center;
 }
@@ -32,24 +32,14 @@
     color: $colortodo;
 }
 .caja p span{
-    @include color(#0d6efd);
+    @include color($colorUno);
 }
 .imagen__nosotros img{
     width: 100%;
 }
-/*CUERPO DE LA PAGINA (PRODUCTOS)*/
+/*CUERPO DE LA PAGINA (PRODUCTOS) Y (SERVICIOS)*/
 .card{
-    margin:20px 20px 20px 20px;
-    width: 18rem;
-}
-/*CUERPO DE LA PAGINA (SERVICIOS)*/
-.card-body span{
-    font-weight: bold;
-    font-size: 20px;
-    color: $colorGeneral;
-}
-.card{
-    width: 18rem;
+   margin-bottom: 20px;
 }
 /*CUERPO DE LA PAGINA (CONTACTOS)*/
 .contactos__container{
@@ -64,7 +54,7 @@
 .logo__contactos{
     text-align: center;
     font-size: 40px;
-    color: $colorGeneral;
+    color: $colorTres;
     padding: 20px;
     font-weight: bold;
 }
@@ -81,7 +71,7 @@
     padding: .7em;
     border: none;
     background: none;
-    border-bottom: 1px solid $colorGeneral ;
+    border-bottom: 1px solid $colorDos ;
     outline: none;
     color: black;
 }
@@ -89,14 +79,14 @@
     color: white;
 }
 .contactos__form form .boton__contactos{
-    background-color: $colorGeneral;
+    background-color: $colorDos;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
 }
 .contactos__form form .boton__contactos:hover,
 .contactos__form form .boton__contactos:focus{
-    background-color:#073e91;
+    background-color:$colorCinco;
     color: white;
     transition: background-color 1s ease-out;
     outline: none;

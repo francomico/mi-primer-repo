@@ -2,12 +2,15 @@
 .navbar-titulo{
     text-decoration: none;
     font-weight: bold;
-    color: $colorGeneral;
+    color: $colorUno;
 }
 #menu a{
     font-size: 20px;
     text-decoration: none;
     &:hover{
-        color: $colorGeneral ;
+        color: $colorUno ;
     }
+}
+.Titulo{
+    color: $colorUno;
 }
