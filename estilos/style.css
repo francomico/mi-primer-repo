@@ -14,6 +14,9 @@
 .Titulo {
   color: #8D71B4; }
 
+.navbar-collapse{
+  flex-grow: inherit;
+}
 /*CUERPO DE LA PAGINA (INICIO)*/
 #carouselExampleControls {
   width: 100%; }
